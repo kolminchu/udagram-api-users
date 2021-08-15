@@ -70,4 +70,3 @@ spec:
             configMapKeyRef:
               name: udagram-configmap
               key: URL
-
