@@ -70,3 +70,8 @@ spec:
             configMapKeyRef:
               name: udagram-configmap
               key: URL
+        - name: AWS_PROFILE
+          valueFrom:
+            configMapKeyRef:
+              name: udagram-configmap
+              key: AWS_PROFILE              
