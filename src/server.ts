@@ -26,7 +26,7 @@ import {V0_USER_MODELS} from './controllers/v0/model.index';
       'Access-Control-Allow-Headers'
     ],
     methods: 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
-    origin: "*",
+    origin: config.url,
   }));
 
   app.use('/api/v0/', IndexRouter);
